@@ -71,7 +71,8 @@ public class Habit {
     }
 
     public String randomPantalon(){
-        Pantalon pantalon1 = new Pantalon();        Random random = new Random();
+        Pantalon pantalon1 = new Pantalon();
+        Random random = new Random();
         int randomIndex = random.nextInt(pantalon1.getPantalons().size());
         pantalon = pantalon1.getPantalons().get(randomIndex);
         return pantalon;

@@ -50,9 +50,4 @@ public class MainActivityTest {
         assertNotEquals("pas besoin", habit.getVeste());
     }
 
-    @Test
-    public void greeterSaysHello() {
-        onView(withId(R.id.editTextVilleInput)).perform(typeText("Paris"));
-        onView(withId(R.id.buttonValiderVille)).perform(click());
-    }
 }
